@@ -1,11 +1,15 @@
 import ProductsView from "@/views/pages/products/ProductsView.vue";
 
-const ProductsRoutes =[
+const ProductsRoutes = [
     {
-        path:'/products',
-        name:"products",
-        component:ProductsView
-    
+        path: '/products',
+        name: "products",
+        component: ProductsView,
+        meta: {
+            layout: 'default',
+            auth: true
+        },
+
     }
 ]
 

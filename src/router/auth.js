@@ -1,11 +1,15 @@
 import LoginView from "@/views/pages/auth/LoginView.vue";
 
-const LoginRoutes =[
+const LoginRoutes = [
     {
-        path:'/login',
-        name:"login",
-        component:LoginView
-    
+        path: '/login',
+        name: "login",
+        component: LoginView,
+        meta: {
+            layout: 'auth',
+            auth: true
+        },
+
     }
 ]
 

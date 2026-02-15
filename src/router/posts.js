@@ -4,7 +4,11 @@ const PostsRoutes =[
     {
         path:'/posts',
         name:"posts",
-        component:PostsView
+        component:PostsView,
+         meta: {
+      layout: 'default',
+      auth: true
+    },
     
     }
 ]

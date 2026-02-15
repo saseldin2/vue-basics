@@ -7,5 +7,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  // add flowbite 
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

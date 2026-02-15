@@ -91,7 +91,7 @@
         </div>
       </nav>
 
-      <main class="pt-16 md:pt-20" id="page-container">
+      <main class="pt-16 md:pt-20 px-12" id="page-container">
         <router-view :key="$route.fullPath" />
       </main>
     </div>

@@ -1,18 +1,38 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <users-view :data="users"  />
+     <!-- <users-view :data="fruits"  :style="fruitsStyle"/>
+      <users-view :data="skills" :style="skillsStyle"/> -->
+
+     
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+<script >
+import UsersView from '@/components/resuable/UsersView.vue';
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  components: { UsersView },
+  data() {
+    return {
+      users: [
+        {
+          name:"sas",
+          style:"bg-red-900 rounded-md m-3"
+        },
+        {
+          name:"sas2",
+          style:"bg-green-900 rounded-md m-3"
+        }
+      ]
+      // fruits:['Orange','Apple','Banana'],
+      // skills:['HTML','CSS','JS','PHP'],
+      // usersStyle:"bg-red-900 rounded-md m-3",
+      // fruitsStyle:"bg-green-900 rounded-md m-3",
+      // skillsStyle:"bg-blue-900 rounded-md m-3",
+    };
+  },
+};
 </script>
+
+<style>
+</style>

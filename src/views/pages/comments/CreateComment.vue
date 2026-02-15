@@ -1,6 +1,6 @@
 <template>
   <div>
-        THIS THE COMMENTS VIEW
+    CREATE COMMENTS PAGE
   </div>
 </template>
 
@@ -11,4 +11,3 @@
 <style>
 
 </style>
-

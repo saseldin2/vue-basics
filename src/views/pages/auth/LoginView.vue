@@ -1,6 +1,6 @@
 <template>
   <div>
-        THIS THE COMMENTS VIEW
+    HERE's our simple LOgin page
   </div>
 </template>
 
@@ -11,4 +11,3 @@
 <style>
 
 </style>
-

@@ -1,6 +1,6 @@
 <template>
   <div>
-        THIS THE COMMENTS VIEW
+        Tthis the comments with id {{ $route.params.id }}
   </div>
 </template>
 
@@ -11,4 +11,3 @@
 <style>
 
 </style>
-

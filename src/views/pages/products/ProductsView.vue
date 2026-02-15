@@ -1,5 +1,6 @@
 <template>
   <div class="container mx-auto">
+<!--     @todo: change this display into table instead of raw data the table has actions for delete -view-edit abobe the table add new product button. -->
     <h1 class="text-2xl font-bold mb-4">Products</h1>
     <div v-if="getLoading" class="text-center py-4">
       <span class="text-gray-500">Loading products...</span>
